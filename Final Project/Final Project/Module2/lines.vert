@@ -1,12 +1,3 @@
-#version 150
-
-// Per veretx attributes
-in vec2 position;
-
-// Uniform
-uniform mat4 ortho;
-
-void main()
-{
-	gl_Position  = ortho * vec4(position, 0.0, 1.0);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fef295d143de8fd3dddcda483c78cb18cabb1c43202fcfb1b4bbce5db42a6983
+size 166

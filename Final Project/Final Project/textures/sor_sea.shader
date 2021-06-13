@@ -1,14 +1,3 @@
-// Direction & elevation checked and adjusted - Speaker
-
-textures/skies/sor_sea
-{
-	qer_editorimage env/sor_sea/sea_ft.tga
-	surfaceparm noimpact
-	surfaceparm nolightmap
-	q3map_globaltexture
-	q3map_lightsubdivide 256
-	surfaceparm sky
-	q3map_surfacelight 200
-	q3map_sun 1 1 1 250 0 30
-	skyparms env/sor_sea/sea - -
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9bb25e623501b4afa8aa627c7eff041e043a728be7fb6beebb2a277f40578645
+size 328

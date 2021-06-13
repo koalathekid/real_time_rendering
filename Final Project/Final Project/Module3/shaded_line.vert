@@ -1,14 +1,3 @@
-#version 150
-
-in vec2 position;       // Vertex position attribute
-in vec4 vertexColor;    // Vertex color attribute
-
-uniform mat4 ortho;		// Uniform transformation matrix from application
-
-smooth out vec4 color;	// Smooth interpolation of color output to fragment shader
-
-void main()
-{
-	color = vertexColor;
-	gl_Position = ortho * vec4(position, 0.0, 1.0);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d2108d2b3e168eed234019f0ab4b0ab9ae94a9515906b1e8af337036c3c9dbc
+size 374

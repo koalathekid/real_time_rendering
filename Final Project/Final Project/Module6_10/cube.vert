@@ -1,13 +1,3 @@
-#version 150
-
-in vec3 vPosition;
-uniform mat4 P, V;
-out vec3 texcoords;
-
-void main() {
-	texcoords = vPosition;
-
-	vec4 pos = P * V * vec4(vPosition, 1.0);
-
-	gl_Position = pos.xyww;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3c4b304cdfe430d7e50a1add07817db8cc9e6d0b55ec40d3a26acea55528203
+size 193

@@ -1,13 +1,3 @@
-#version 150
-
-out vec4 fragColor;    // Output fragment color
-in vec3 color;
-void main() 
-{
-	if (dot(gl_PointCoord-0.5, gl_PointCoord-0.5) > 0.25)
-		discard;
-	else
-		fragColor = vec4(color, 1.0);
-	
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e65ebad3bc62157ae41cb74441db6651d5d85e825d3785348ffed7d8b7fecfa
+size 215
